@@ -139,5 +139,3 @@ const toggleStatusTaskWith = function (taskId) {
     addTasksToLocalStorage(arrayOfTasks);
   }
 };
-
-// Add a task
