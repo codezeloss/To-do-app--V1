@@ -1,0 +1,137 @@
+/*
+      SPACE SIZE SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 /
+      80 / 96 / 128
+
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 /
+      36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #023167;
+  color: #fff;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 12rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  width: 800px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.input {
+  color: #fff;
+  background-color: #023167;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 50rem;
+  height: 5rem;
+  font-size: 1.6rem;
+  padding: 0rem 1rem;
+  border: none;
+}
+
+/* ::placeholder {
+  color: white;
+} */
+
+.add {
+  font-size: 1.4rem;
+  color: #001b39;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(244, 191, 0);
+  border: none;
+  width: 10rem;
+  padding: 0rem 2rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tasks {
+  /* background-color: chocolate; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.task {
+  width: 61rem;
+  background-color: rgb(255, 211, 52);
+  padding: 1.3rem 2rem;
+  padding-right: 1rem;
+  color: #001b39;
+  border: #001b39 2px solid;
+  font-size: 1.6rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.task-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.delete-icon,
+.check-icon {
+  width: 20px;
+  cursor: pointer;
+}
+
+.task-done {
+  background-color: rgba(255, 211, 52, 0.563);
+}
+
+.done {
+  text-decoration: line-through;
+}
