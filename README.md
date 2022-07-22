@@ -1,2 +1,5 @@
 # To-do-app--V1
-JS Project
+
+a small JS Project to refresh my brain!
+
+Updates coming soon...
